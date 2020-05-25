@@ -26,8 +26,7 @@ sns.distplot(df.SalePrice)
 df.SalePrice.skew() # 1.88
 df.SalePrice.kurt() # 6.54
 
-# "We think these variables have a strong influence on SalePrice."
-# view sale price x variables predicted 'high' importance
+# view sale price x variables with 'high' predicted importance
 # OverallQual
 sns.boxplot(df.OverallQual, df.SalePrice) # strong relationship
 # OverallCond
@@ -42,7 +41,6 @@ sns.scatterplot(df.GrLivArea, df.SalePrice) # strong relationship
 # LotArea
 sns.scatterplot(df.LotArea, df.SalePrice) # strong relationship
 
-# "We are ALSO curious about ..."
 # view sale price x other variables of interest
 # MSZoning
 sns.boxplot(df.MSZoning, df.SalePrice) # moderate relationship
@@ -57,7 +55,6 @@ sns.scatterplot(df.GarageArea, df.SalePrice) # strong relationship
 # YrSold
 sns.boxplot(df.YrSold, df.SalePrice) # no relationship
 
-# "We were wrong about some variables and might be wrong about others. Let's take a more general approach..."
 # view sale price x all variables
 # correlation heatmap
 plt.subplots(figsize=(12,9))
@@ -65,8 +62,9 @@ sns.heatmap(df.corr(), vmax=0.8, square=True) # 5 strongest correlations:
                                               # OverallQual
                                               # GrLivArea
                                               # GarageCars/GarageArea
-                                              # TotalBsmntSF
+                                              # TotalBsmtSF
                                               # 1stFlrSF
+                                              
 # view sale price x top 10 variables
 # ordered correlation coeff heatmap
 k = 10
@@ -77,8 +75,12 @@ sns.heatmap(cm, cmap='Blues_r', cbar=True, annot=True, square=True, fmt='.1f', a
             yticklabels=cols.values, xticklabels=cols.values, linewidths=1)
 
 # test validity of top 10 variables
-
-
+sns.distplot(df.OverallQual)
+sns.distplot(df.GrLivArea)
+sns.distplot(df.GarageCars)
+sns.distplot(df.GarageArea)
+sns.distplot(df.TotalBsmtSF)
+sns.distplot(df['1stFlrSF'])
 
 ## TASKS ##
 # deal with NAs
