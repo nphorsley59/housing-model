@@ -1,4 +1,12 @@
-# House_Prices
+# Sale Price Model
 
-## resources
+## Project Overview
+
+## Exploratory Data Analysis
+
+## Modeling
+
+## Results
+
+## Resources
 https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview
