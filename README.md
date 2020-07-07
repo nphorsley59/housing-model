@@ -5,6 +5,9 @@ Using a competition dataset from Kaggle with 79 explanatory variables, I created
 
 ### Exploratory Data Analysis
 
+![alt_text](https://github.com/nphorsley59/House_Prices/blob/master/Figures/CorrMap_10.png "Correlation Heatmap")
+![alt_text](https://github.com/nphorsley59/House_Prices/blob/master/Figures/Qual_Feat_Boxplots.png "Qualitative Features vs Sale Price")
+
 ### Modeling
 
 ### Results
