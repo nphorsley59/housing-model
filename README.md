@@ -20,6 +20,7 @@ NOTE: The full dataset remained separated into "train" and "test" samples for cl
 ![alt_text](https://github.com/nphorsley59/House_Prices/blob/master/Figures/MissingData.png "Missing Data")
 
 #### 3. Feature Engineering
+I merged the "train" and "test" samples before feature engineering to ensure changes were reflected in both samples.
 
 ### <div align="center">Quantitative Features</div>
 
