@@ -15,6 +15,9 @@ I addressed several major issues during the cleaning process. First, missing val
 
 NOTE: The full dataset remained separated into "train" and "test" samples for cleaning to avoid [data leakage](https://machinelearningmastery.com/data-leakage-machine-learning/).<br />
 
+**Figure 1.** Summary of missing data in the "test" sample.
+![alt_text](https://github.com/nphorsley59/House_Prices/blob/master/Figures/MissingData.png "Missing Data")
+
 #### 3. Feature Engineering
 
 ### <div align="center">Quantitative Features</div>
