@@ -8,7 +8,7 @@ Using a competition dataset available on Kaggle, I created a model that can pred
 #### 1. Exploration
 I began by familiarizing myself with the Ames, Iowa housing dataset. It was divided into "train" and "test" samples, each consisting of roughly 1,500 entries. Each entry held 78 variables characterizing the house, lot, and surrounding area. The "train" sample included a 79th variable, 'Sale Price'. It was the explicit goal of the competition to use the "train" sample to predict the 'Sale Price' of houses in the "test" sample.<br />
 
-Due to the complexity of the dataset, a [detailed description]() of each of the 78 explanatory variables was included. I used an [Excel spreadsheet]() to track the role of each variable and its expected influence on 'Sale Price'.<br />
+Due to the complexity of the dataset, a [detailed description](https://github.com/nphorsley59/House_Prices/blob/master/Data_Description.txt) of each of the 78 explanatory variables was included. I reviewed this information and broke down the full variable list by type (numerical vs categorical) and role (building i.e. describes physical characteristics of house, space i.e. describes size of house, and location i.e. describes the surrounding area) in an [Excel spreadsheet](https://github.com/nphorsley59/House_Prices/blob/master/Feature_Log.xlsx). I also made predictions about the influence of each variable and 'Sale Price' and kept notes throughout the analysis process.<br />
 
 #### 2. Cleaning
 
