@@ -17,7 +17,7 @@ NOTE: The full dataset remained separated into "train" and "test" samples for cl
 
 **Figure 1.** Summary of missing data in the "test" sample.<br />
 
-![alt_text](https://github.com/nphorsley59/House_Prices/blob/master/Figures/MissingData2.png "Missing Data")
+![alt_text](https://github.com/nphorsley59/House_Prices/blob/master/Figures/MissingData.png "Missing Data")
 
 #### 3. Feature Engineering
 
