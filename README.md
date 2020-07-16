@@ -28,7 +28,7 @@ The purpose of this step was to simplify the dataset, create new features that c
 
 **Figure 3.** Correcting data types and heirarchical encoding of non-numeric features.<br/>
 
-![alt_text]()
+![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/Heir_Encoding.png "Feature Engineering")
 
 ### <div align="center">Quantitative Features</div>
 
