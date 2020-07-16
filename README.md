@@ -35,7 +35,7 @@ Now that the dataset had been cleaned and organized, it was time for an explorat
 
 **Figure 4.** A correlation heatmap of all quantitative features, showing meaningful predictive features and potential multicollinearity.<br/>
 
-<img src="https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/CorrMap_15.png" height="750" width="750"><br/>
+<img src="https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/CorrMap_15.jpg" height="750" width="750"><br/>
 
 Next, I explored my strongest qualitative predictors further and removed any obvious outliers.
 
