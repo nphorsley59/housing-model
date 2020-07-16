@@ -45,23 +45,23 @@ Next, I explored my strongest quantitative predictors independently and removed 
 
 ### <div align="center">Qualitative Features</div>
 
-I continued my exploratory data analysis by visualizing some of the qualitative features I expected to influence 'SalePrice'. Several of these described the location of the house and could be related, so I visualized them independently and together (Figure 6, 7).<br/>
+I continued my exploratory data analysis by visualizing some of the qualitative features I expected to influence 'SalePrice'. Several of these described the location of the house and could be related, so I visualized them independently and together (Figure 6, 7). In general, I expected most qualitative features to have a weak influence on 'SalePrice' and found very few strong relationships.<br/>
 
-**Figure 6.** Variation in sale price for four qualitative variables. 'MSSubClass' describes the housing type and 'MSZoning' describes the zoning of the surrounding area.<br/>
+**Figure 6.** Box and whisker plot showing variation in sale price for four qualitative variables. 'MSSubClass' describes the housing type and 'MSZoning' describes the zoning of the surrounding area.<br/>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/Qual_Feat_Boxplots.jpg "Qualitative Features")<br/>
 
-**Figure 7.** Relationship between 'Neighborhood' and 'MSZoning'.<br/>
+**Figure 7.** Swarmplot showing relationship between 'Neighborhood' and 'MSZoning'.<br/>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/NeighbrhdZoning.jpg "Qualitative Relationships")
 
 ### <div align="center">Normalize Data</div>
 
 #### 1. Response Variable
+Before modeling, I checked the distribution and normality of my data. This is especially important for the response (target) variable. I found that 'SalePrice' was skewed left quite significantly (Figure 8). To fix this, I performed a log(x+1) transformation (Figure 9).
 
 #### 2. Explanatory Variables
-
-#### 3. Visual Check
+I was also interested in tranforming particularly skewed explanatory variables (features). I set a cutoff of skew >= 1 and used a Box Cox transformation. I visually inspected my strongest predictors from my exploratory data analysis and was satisfied with the results (Figure 10). Notice that the heteroscedasticity noted earlier has been corrected.
 
 ### <div align="center">Regression Modeling</div>
 
