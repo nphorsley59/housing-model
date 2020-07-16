@@ -45,7 +45,11 @@ Next, I explored my strongest quantitative predictors independently and removed 
 
 ### <div align="center">Qualitative Features</div>
 
-I also visualized some of the qualitative features that I expected to influence 'SalePrice'. Many of these described the location of the house and could be related, so I visualized them independently and together (Figure 6, 7).
+I continued my exploratory data analysis by visualizing some of the qualitative features I expected to influence 'SalePrice'. Several of these described the location of the house and could be related, so I visualized them independently and together (Figure 6, 7).<br/>
+
+**Figure 6.** Variation in sale price for four qualitative variables. 'MSSubClass' describes the housing type and 'MSZoning' describes the zoning of the surrounding area.
+
+**Figure 7.** Relationships between 'Neighborhood', 'MSZoning', and 'MSSubClass'.
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/Qual_Feat_Boxplots.jpg "Qualitative Features")
 
