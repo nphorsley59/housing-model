@@ -37,7 +37,7 @@ Now that the dataset had been cleaned and organized, it was time for an explorat
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/CorrMap_15.jpg "Correlation Heatmap")<br/>
 
-Next, I explored my strongest quantitative predictors further and removed any obvious outliers.
+Next, I explored my strongest quantitative predictors independently and removed any obvious outliers.
 
 **Figure 5.** Scatterplot of 'GrLivArea' and 'SalePrice'; outliers circled in black.<br/>
 
