@@ -33,11 +33,11 @@ The purpose of this step was to simplify the dataset, create new features that c
 ### <div align="center">Quantitative Features</div>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/CorrMap_15.png "Correlation Heatmap")
+<img src="https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/CorrMap_15.png" height="800" width="800">
 
 ### <div align="center">Qualitative Features</div>
 
 ![alt_text](https://github.com/nphorsley59/House_Prices/blob/master/Figures/Qual_Feat_Boxplots.png "Qualitative Features vs Sale Price")
-<img src="https://github.com/nphorsley59/House_Prices/blob/master/Figures/Qual_Feat_Boxplots.png" height="100" width="100">
 
 ### <div align="center">Normalize Data</div>
 
