@@ -24,7 +24,11 @@ NOTE: The full dataset remained separated into "train" and "test" samples for cl
 ![alt_text](https://github.com/nphorsley59/House_Prices/blob/master/Figures/MissingData.png "Missing Data")
 
 #### 3. Feature Engineering
-I merged the "train" and "test" samples before feature engineering to ensure changes were reflected in both samples.
+The purpose of this step was to simplify the dataset, create new features that could inform the model, and ensure the structure of each feature was conducive to analysis. I began by merging the "train" and "test" samples to ensure changes were reflected in both. I then removed several uninformative features, including 'Id', 'Utilities', and 'PoolQC', and changed the data type for several others. I only wanted to keep features that could influence Sale Price, were known for most of the dataset, and contained variation. I also wanted to ensure the data type reflected the substance of the feature. The final step was to encode the heirarchical features that were not already numeric (Figure 3). For example, 'BsmtQual' has a clear linear relationship with SalePrice; higher quality basements are worth more money. Encoding allows the model to easily incorporate these features.
+
+**Figure 3.** Correcting data types and heirarchical encoding of non-numeric features.<br/>
+
+![alt_text]()
 
 ### <div align="center">Quantitative Features</div>
 
