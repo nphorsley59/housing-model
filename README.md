@@ -45,9 +45,9 @@ Next, I explored my strongest quantitative predictors independently and removed 
 
 ### <div align="center">Qualitative Features</div>
 
-I also visualized some of the qualitative features that I thought could influence 'SalePrice'.
+I also visualized some of the qualitative features that I expected to influence 'SalePrice'. Many of these described the location of the house and could be related, so I visualized them independently and together (Figure 6, 7).
 
-![alt_text](https://github.com/nphorsley59/House_Prices/blob/master/Figures/Qual_Feat_Boxplots.png "Qualitative Features")
+![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/Qual_Feat_Boxplots.jpg "Qualitative Features")
 
 ### <div align="center">Normalize Data</div>
 
