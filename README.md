@@ -32,8 +32,7 @@ The purpose of this step was to simplify the dataset, create new features that c
 
 ### <div align="center">Quantitative Features</div>
 
-![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/CorrMap_15.png "Correlation Heatmap")
-<img src="https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/CorrMap_15.png" height="500" width="500">
+<img src="https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/CorrMap_15.png" height="600" width="600">
 
 ### <div align="center">Qualitative Features</div>
 
