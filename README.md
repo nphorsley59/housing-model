@@ -36,7 +36,7 @@ The purpose of this step was to simplify the dataset, create new features that c
 
 ### <div align="center">Qualitative Features</div>
 
-![alt_text](https://github.com/nphorsley59/House_Prices/blob/master/Figures/Qual_Feat_Boxplots.png "Qualitative Features vs Sale Price")
+<img src="https://github.com/nphorsley59/House_Prices/blob/master/Figures/Qual_Feat_Boxplots.png" height="600" width="600">
 
 ### <div align="center">Normalize Data</div>
 
