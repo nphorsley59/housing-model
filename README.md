@@ -69,9 +69,9 @@ Before modeling, I checked the distribution and normality of my data. This was e
 ![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/Log_Distribution.png "Log-Transformed Distribution")<br/>
 
 #### 2. Explanatory Variables
-I was also interested in tranforming particularly skewed explanatory variables (features). I set a cutoff of skew >= 1 and used a Box Cox transformation. I visually inspected my strongest predictors from my exploratory data analysis and was satisfied with the results (Figure 10).<br/>
+I was also interested in tranforming particularly skewed explanatory variables (features). I set a cutoff of skew >= 1 and used a Box Cox transformation. I visually inspected my strongest predictors from my exploratory data analysis and was satisfied with the results (Figure 10). Notice that the heteroscedasticity noted earlier has been corrected.<br/>
 
-**Figure 10.** Scatterplot of 'GrLivArea' and 'SalePrice' after a Box Cox transformation. Notice that the heteroscedasticity noted earlier has been corrected.<br/>
+**Figure 10.** Scatterplot of 'GrLivArea' and 'SalePrice' after a Box Cox transformation.<br/>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/LivingArea_Scatter3.jpg)
 
