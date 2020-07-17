@@ -58,10 +58,22 @@ I continued my exploratory data analysis by visualizing some of the qualitative 
 ### <div align="center">Normalize Data</div>
 
 #### 1. Response Variable
-Before modeling, I checked the distribution and normality of my data. This is especially important for the response (target) variable. I found that 'SalePrice' was skewed left quite significantly (Figure 8). To fix this, I performed a log(x+1) transformation (Figure 9).
+Before modeling, I checked the distribution and normality of my data. This was especially important for the response (target) variable, so that's where I began. I found that 'SalePrice' was skewed left quite significantly (Figure 8). To fix this, I performed a log(x+1) transformation (Figure 9).<br/>
+
+**Figure 8.** The raw distribution of 'SalePrice' compared with a normal distribution.<br/>
+
+![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/Raw_Distribution.png "Raw Distribution")<br/>
+
+**Figure 9.** The transformed distribution of 'SalePrice' compared with a normal distribution.<br/>
+
+![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/Log_Distribution.png "Log-Transformed Distribution")<br/>
 
 #### 2. Explanatory Variables
-I was also interested in tranforming particularly skewed explanatory variables (features). I set a cutoff of skew >= 1 and used a Box Cox transformation. I visually inspected my strongest predictors from my exploratory data analysis and was satisfied with the results (Figure 10). Notice that the heteroscedasticity noted earlier has been corrected.
+I was also interested in tranforming particularly skewed explanatory variables (features). I set a cutoff of skew >= 1 and used a Box Cox transformation. I visually inspected my strongest predictors from my exploratory data analysis and was satisfied with the results (Figure 10).<br/>
+
+**Figure 10.** Scatterplot of 'GrLivArea' and 'SalePrice' after a Box Cox transformation. Notice that the heteroscedasticity noted earlier has been corrected.<br/>
+
+![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/LivingArea_Scatter2.jpg)
 
 ### <div align="center">Regression Modeling</div>
 
