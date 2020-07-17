@@ -73,7 +73,7 @@ I was also interested in tranforming particularly skewed explanatory variables (
 
 **Figure 10.** Scatterplot of 'GrLivArea' and 'SalePrice' after a Box Cox transformation. Notice that the heteroscedasticity noted earlier has been corrected.<br/>
 
-![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/LivingArea_Scatter2.jpg)
+![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/LivingArea_Scatter3.jpg)
 
 ### <div align="center">Regression Modeling</div>
 
