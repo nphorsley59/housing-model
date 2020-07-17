@@ -88,7 +88,7 @@ Before building a complex, stacked regression model, I tested the accuracy of a 
 Now that I had a selected a top model, I ran the "test" data through the model to predict 'SalePrice'.
 
 ### <div align="center">Resources</div>
-https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview
-https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/
-https://www.kaggle.com/serigne/stacked-regressions-top-4-on-leaderboard
+https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview<br/>
+https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/<br/>
+https://www.kaggle.com/serigne/stacked-regressions-top-4-on-leaderboard<br/>
 https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python
