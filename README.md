@@ -51,7 +51,7 @@ I continued my exploratory data analysis by visualizing some of the qualitative 
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/Qual_Feat_Boxplots.jpg "Qualitative Features")<br/>
 
-**Figure 7.** Swarmplot showing relationship between 'Neighborhood' and 'MSZoning'.<br/>
+**Figure 7.** Swarmplot showing relationship between 'Neighborhood', 'MSZoning', and 'SalePrice'.<br/>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/NeighbrhdZoning.jpg "Qualitative Relationships")
 
