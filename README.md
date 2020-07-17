@@ -84,6 +84,8 @@ A few final steps were required to prepare the dataset for training and testing 
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/Regression_Models.jpg "Regression Models")
 
+#### 3. Stacking Models
+
 ### <div align="center">Submission</div>
 Now that I had a relatively accurate model, I used it to run to predict 'SalePrice' for the "test" sample.
 
