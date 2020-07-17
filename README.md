@@ -60,11 +60,11 @@ I continued my exploratory data analysis by visualizing some of the qualitative 
 #### 1. Response Variable
 Before modeling, I checked the distribution and normality of my data. This was especially important for the response (target) variable, so that's where I began. I found that 'SalePrice' was skewed left quite significantly (Figure 8). To fix this, I performed a log(x+1) transformation (Figure 9).<br/>
 
-**Figure 8.** The raw distribution of 'SalePrice' compared with a normal distribution.<br/>
+**Figure 8.** The raw distribution (blue curve) of 'SalePrice' compared with a normal distribution (black curve).<br/>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/Raw_Distribution.png "Raw Distribution")<br/>
 
-**Figure 9.** The transformed distribution of 'SalePrice' compared with a normal distribution.<br/>
+**Figure 9.** The transformed distribution (blue curve) of 'SalePrice' compared with a normal distribution (black curve).<br/>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/Log_Distribution.png "Log-Transformed Distribution")<br/>
 
