@@ -77,7 +77,17 @@ I was also interested in tranforming particularly skewed explanatory variables (
 
 ### <div align="center">Regression Modeling</div>
 
+#### 1. Preparation
+A few final steps were required to prepare the dataset for training and testing models. First, I turned all qualitative features into [dummy variables](https://en.wikipedia.org/wiki/Dummy_variable_(statistics)). Then, I separated the "test" data from the "train" data; 'SalePrice' is unknown for the "test" data, so it won't be helpful for model building. Finally, I further separated the "train" data into a "train" group and a "test" group. The "train" group was used to inform the model and the "test" group was used to test the model's accuracy. I did this step manually to create visualizations, but when actually constructing models this was replaced with automated [cross-validation](https://towardsdatascience.com/cross-validation-in-machine-learning-72924a69872f) executed by a custom function.
+
+#### 2. Model Building
+
+#### 3. Testing
+
 ### <div align="center">Results</div>
 
 ### <div align="center">Resources</div>
 https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview
+https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/
+https://www.kaggle.com/serigne/stacked-regressions-top-4-on-leaderboard
+https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python
