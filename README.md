@@ -81,11 +81,11 @@ I was also interested in tranforming particularly skewed explanatory variables (
 A few final steps were required to prepare the dataset for training and testing models. First, I turned all qualitative features into [dummy variables](https://en.wikipedia.org/wiki/Dummy_variable_(statistics)). Then, I separated the "test" data from the "train" data; 'SalePrice' is unknown for the "test" data, so it won't be helpful for model building. Finally, I further separated the "train" data into a "train" group and a "test" group. The "train" group was used to inform the model and the "test" group was used to test the model's accuracy. I did this step manually to create visualizations, but when actually testing models this was replaced with automated [cross-validation](https://towardsdatascience.com/cross-validation-in-machine-learning-72924a69872f) executed by a custom function.
 
 #### 2. Building and Testing Models
-I chose to mostly use regularized linear models due to the complexity of the dataset. These types of models help reduce overfitting. I also preprocessed the data using [RobustScaler()](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html) to reduce the influence of outliers that weren't manually removed. This resulted in a Ridge Regression model, Lasso Regression model, and an Elastic Net Regression model, which each use different techniques for constraining the weights of the parameters (Figure 11). In addition to regularized linear models, I used a Gradient Boost algorithm, which essentially compares predictors to their predecessors and learns from the errors. Each of these models performed fairly well, producing RMSE (root mean square error) values around 0.10-0.15.
+I chose to mostly use regularized linear models due to the complexity of the dataset. These types of models help reduce overfitting. I also preprocessed the data using [RobustScaler()](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html) to reduce the influence of outliers that weren't manually removed. This resulted in a Ridge Regression model, Lasso Regression model, and an Elastic Net Regression model, which each use different techniques for constraining the weights of the parameters (Figure 11). In addition to regularized linear models, I used a Gradient Boost algorithm, which essentially compares predictors to their predecessors and learns from the errors. Each of these models performed fairly well, producing RMSE (root mean square error) values around 0.10-0.15.<br/>
 
-**Figure 11.** Visual comparison of the performance of four unique models built using machine learning algorithms.
+**Figure 11.** Visual comparison of the performance of four unique models built using machine learning algorithms.<br/>
 
-![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/Regression_Models.jpg "Regression Models")
+![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/Regression_Models.jpg "Regression Models")<br/>
 
 To test these models more rigorously, I created a custom cross-validation function (Figure 12).
 
@@ -93,12 +93,12 @@ To test these models more rigorously, I created a custom cross-validation functi
 Stacking is an [ensemble method](https://towardsdatascience.com/ensemble-methods-in-machine-learning-what-are-they-and-why-use-them-68ec3f9fef5f#:~:text=Ensemble%20methods%20is%20a%20machine,machine%20learning%20and%20model%20building.) that can improve the accuracy of model predictions by combining the strenghts of multiple models. This is an advanced method that I am still in the process of learning (it is not supported by scikit-learn) and implementing. I am also not sure it is entirely necessary for this dataset.
 
 ### <div align="center">Submission</div>
-Now that I had several relatively accurate models, I used the model with the best cross-validation score to predict 'SalePrice' for the "test" sample. I included the [results](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/submission.csv) as a csv in this repository. Unfortunately, because this dataset was a competition dataset, I could not directly test the final accuracy of my model. I did find that the distribution of my 'SalePrice' predictions closely matched the distribution of 'SalePrice' for the training dataset (Figure 12). I considered this to be support for the strength of my model.
+Now that I had several relatively accurate models, I used the model with the best cross-validation score to predict 'SalePrice' for the "test" sample. I included the [results](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/submission.csv) as a csv in this repository. Unfortunately, because this dataset was a competition dataset, I could not directly test the final accuracy of my model. I did find that the distribution of my 'SalePrice' predictions closely matched the distribution of 'SalePrice' for the training dataset (Figure 12). I considered this to be support for the strength of my model.<br/>
 
-**Figure 12.** Comparison of 'SalePrice' distribution between the "train" and predicted "test" samples.
+**Figure 12.** Comparison of 'SalePrice' distribution between the "train" and predicted "test" samples.<br/>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/submission_comparison.jpg "Submission Comparison")
 
 ### <div align="center">Resources</div>
 https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview<br/>
-https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/<br/>
+https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/
