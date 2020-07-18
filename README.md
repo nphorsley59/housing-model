@@ -93,7 +93,7 @@ To test these models more rigorously, I created a custom cross-validation functi
 Stacking is an [ensemble method](https://towardsdatascience.com/ensemble-methods-in-machine-learning-what-are-they-and-why-use-them-68ec3f9fef5f#:~:text=Ensemble%20methods%20is%20a%20machine,machine%20learning%20and%20model%20building.) that can improve the accuracy of model predictions by combining the strenghts of multiple models. This is an advanced method that I am still in the process of learning (it is not supported by scikit-learn) and implementing.
 
 ### <div align="center">Submission</div>
-Now that I had several relatively accurate models, I used the model with the best cross-validation score to predict 'SalePrice' for the "test" sample. I have included the [results](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/submission.csv) as a csv in this repository.
+Now that I had several relatively accurate models, I used the model with the best cross-validation score to predict 'SalePrice' for the "test" sample. I have included the [results](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/submission.csv) as a csv in this repository. Unfortunately, because this dataset is a competition dataset, I cannot test the final accuracy of my model. Anecdotally - looking at high-scoring submissions - my predictions for each house are within $5,000 of the most accurate predictions.
 
 ### <div align="center">Resources</div>
 https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview<br/>
