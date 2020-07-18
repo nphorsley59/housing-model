@@ -87,7 +87,7 @@ I chose to mostly use regularized linear models due to the complexity of the dat
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/Regression_Models.jpg "Regression Models")
 
-To test these models more rigorously, I used cross-validation (Figure 12).
+To test these models more rigorously, I created a custom cross-validation function (Figure 12).
 
 #### 3. Stacking Models
 
