@@ -83,7 +83,7 @@ A few final steps were required to prepare the dataset for training and testing 
 #### 2. Building and Testing Models
 I chose to mostly use regularized linear models due to the complexity of the dataset. These types of models help reduce overfitting. I also preprocessed the data using [RobustScaler()](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html) to reduce the influence of outliers that weren't manually removed. This resulted in a Ridge Regression model, Lasso Regression model, and an Elastic Net Regression model, which each use different techniques for constraining the weights of the parameters (Figure 11). In addition to regularized linear models, I used a Gradient Boost algorithm, which essentially compares predictors to their predecessors and learns from the errors. Each of these models performed fairly well, producing RMSE (root mean square error) values around 0.10-0.15.
 
-**Figure 11.** 
+**Figure 11.** Visual comparison of the performance of four unique machine learning algorithms.
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/Regression_Models.jpg "Regression Models")
 
