@@ -87,7 +87,7 @@ I chose to mostly use regularized linear models due to the complexity of the dat
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/Regression_Models.jpg "Regression Models")<br/>
 
-To test these models more rigorously, I created a custom cross-validation function (Figure 12).
+To test these models more rigorously, I used a cross-validation function inspired by Serigne's notebook<sup>3</sup> on Kaggle (Figure 12).
 
 #### 3. Stacking Models
 Stacking is an [ensemble method](https://towardsdatascience.com/ensemble-methods-in-machine-learning-what-are-they-and-why-use-them-68ec3f9fef5f#:~:text=Ensemble%20methods%20is%20a%20machine,machine%20learning%20and%20model%20building.) that can improve the accuracy of model predictions by combining the strenghts of multiple models. This is an advanced method that I am still in the process of learning (it is not supported by scikit-learn) and implementing. I am also not sure it is entirely necessary for this dataset.
@@ -101,4 +101,5 @@ Now that I had several relatively accurate models, I used the model with the bes
 
 ### <div align="center">Resources</div>
 <sup>1</sup> https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview<br/>
-<sup>2</sup> https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/
+<sup>2</sup> https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/<br/>
+<sup>3</sup> https://www.kaggle.com/serigne/stacked-regressions-top-4-on-leaderboard
