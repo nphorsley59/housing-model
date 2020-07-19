@@ -100,5 +100,5 @@ Now that I had several relatively accurate models, I used the model with the bes
 ![alt_text](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/Figures/submission_comparison.jpg "Submission Comparison")
 
 ### <div align="center">Resources</div>
-<sup>1</sup>https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview<br/>
-<sup>2</sup>https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/
+<sup>1</sup> https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview<br/>
+<sup>2</sup> https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/
