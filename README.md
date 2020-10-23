@@ -4,7 +4,7 @@
 Skills Demonstrated: *regularized regression, gradient boosting, data transformation and scaling, eda*<br/>
 Libraries and Programs: *Python, Jupyter Notebook, matplotlib, numpy, pandas, scipy, seaborn, sklearn*<br/>
 
-Using a competition dataset available on Kaggle<sup>1</sup>, I created a model that can predict the sale price of a house in Ames, Iowa with 88% accuracy from 79 explanatory variables (features). The purpose of this project was to demonstrate my ability to tackle a complex dataset and model the behavior of a target variable. For a more in-depth look at this analysis, please refer to my [Jupyter Notebook](https://github.com/nphorsley59/House_Prices/blob/master/House_Prices.ipynb).
+Using a competition dataset available on Kaggle<sup>1</sup>, I created a model that could predict the sale price of a house in Ames, Iowa with 88% accuracy from 79 explanatory variables (features). The purpose of this project was to demonstrate my ability to tackle a complex dataset and model the behavior of a target variable. For a more in-depth look at this analysis, please refer to my [Jupyter Notebook](https://github.com/nphorsley59/House_Prices/blob/master/House_Prices.ipynb).
 
 ### <div align="center">Data Preparation</div>
 
