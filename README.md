@@ -4,7 +4,7 @@
 Skills Demonstrated: *regularized regression, gradient boosting, data transformation and scaling, eda*<br/>
 Libraries and Programs: *Python, Jupyter Notebook, matplotlib, numpy, pandas, scipy, seaborn, sklearn*<br/>
 
-Using a competition dataset available on Kaggle<sup>1</sup>, I created a model that can predict the sale price of a house in Ames, Iowa from 79 explanatory variables (features). The purpose of this project was to demonstrate my ability to tackle a complex dataset and model the behavior of a target variable. For a more in-depth look at this analysis, please refer to my [Jupyter Notebook](https://github.com/nphorsley59/House_Prices/blob/master/House_Prices.ipynb).
+Using a competition dataset available on Kaggle<sup>1</sup>, I created a model that can predict the sale price of a house in Ames, Iowa with 88% accuracy from 79 explanatory variables (features). The purpose of this project was to demonstrate my ability to tackle a complex dataset and model the behavior of a target variable. For a more in-depth look at this analysis, please refer to my [Jupyter Notebook](https://github.com/nphorsley59/House_Prices/blob/master/House_Prices.ipynb).
 
 ### <div align="center">Data Preparation</div>
 
@@ -96,7 +96,7 @@ To test these models more rigorously, I used a cross-validation function inspire
 Stacking is an [ensemble method](https://towardsdatascience.com/ensemble-methods-in-machine-learning-what-are-they-and-why-use-them-68ec3f9fef5f#:~:text=Ensemble%20methods%20is%20a%20machine,machine%20learning%20and%20model%20building.) that can improve the accuracy of model predictions by combining the strengths of multiple models. This method is not supported by scikit-learn, but I hope to work out my own implementation in the near future and apply it to this project.
 
 ### <div align="center">Submission</div>
-Now that I had several relatively accurate models, I used the model with the best cross-validation score to predict 'SalePrice' for the "test" sample. I included the [results](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/submission.csv) as a csv in this repository. Unfortunately, because this dataset was a competition dataset, I could not directly test the final accuracy of my model. I did find that the distribution of my 'SalePrice' predictions closely matched the distribution of 'SalePrice' for the training dataset (Figure 12). I considered this to be support for the strength of my model.<br/>
+Now that I had several relatively accurate models, I used the model with the best cross-validation score to predict 'SalePrice' for the "test" sample. I included the [results](https://github.com/nphorsley59/Predicting_Sale_Price/blob/master/submission.csv) as a csv in this repository. I also had them scored by Kaggle and received a test accuracy of 88%. For context, submissions in the top 100 (out of ~5000 total submissions) had a test accuracy of 89%. I also found that the distribution of my 'SalePrice' predictions closely matched the distribution of 'SalePrice' for the training dataset (Figure 12). I considered this to be additional support for the strength of my model.<br/>
 
 **Figure 12.** Comparison of 'SalePrice' distribution between the "train" and predicted "test" samples.<br/>
 
